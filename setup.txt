@@ -1,0 +1,13 @@
+1. Create a github account first.
+2. Create new repository and a file inside it and try to commit changes in github website.
+3. Now to store code in github and manage it, we need to use git.
+4. Setup git in local machine to make changes to remote repository using IDE
+    a. Download & install git.
+    b. We get gitbash installed automatically with git.
+    c. Open gitbash and use below commands
+         git --version          ---> To confirm git is installed or not
+    d. Need to configure github account which we are trying to connect.
+           1. Go to root directory, and use below commands
+                  git config --global user.name "vamshivarma954"
+                  git config --global user.email "vamshivarma954@gmail.com"
+                  git config --list
