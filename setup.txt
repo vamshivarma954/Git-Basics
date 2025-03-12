@@ -30,4 +30,6 @@
     12. For undoing changes
         git reset HEAD~1     ---> To undo latest commit.
 
-        git revert <commit id>  ---> To remove that pushed changes by adding new commit for erasing 
+        git revert <commit id>  ---> To remove that pushed changes by adding new commit for erasing.
+    13. use fork option to create any clone repository from others github account.
+          Go to any public repository of others and click on fork option and give repo name to create that copy in our account.
