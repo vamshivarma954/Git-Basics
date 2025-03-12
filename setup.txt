@@ -6,8 +6,18 @@
     b. We get gitbash installed automatically with git.
     c. Open gitbash and use below commands
          git --version          ---> To confirm git is installed or not
-    d. Need to configure github account which we are trying to connect.
+    d. Need to configure github account which we are trying to connect in gitbash.
            1. Go to root directory, and use below commands
                   git config --global user.name "vamshivarma954"
                   git config --global user.email "vamshivarma954@gmail.com"
-                  git config --list
+                  git config --list   --> To view configured details
+5. From now on, we can use vs code IDE to manage code rather than gitbash.
+    1. Open a new folder and use below command to clone repository
+          git clone <repo link>
+    2. After successful cloning, a hidden .git file is generated inside repo folder which is a sign of git repository.
+    3. After this, we can start using git commands and manage data.
+           git status    ---> To check status of files comparing remote & local repos.
+                               Untracked --> new file created
+                               Modified, Staged, Unchanged... 
+    4. Use "git init" to intialize repo from local 
+    5. 
