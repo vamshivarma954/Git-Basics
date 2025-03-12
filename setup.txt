@@ -19,5 +19,15 @@
            git status    ---> To check status of files comparing remote & local repos.
                                Untracked --> new file created
                                Modified, Staged, Unchanged... 
-    4. Use "git init" to intialize repo from local 
-    5. 
+    4. Use "git init" to intialize repo from local
+    5. It is recommended and easy to create repo and add initial files in the github website rather than local.
+    6. git add <addname>       ----->  To add file to staging area.
+    7. git add .  ----> To add all files to staging area.
+    8. git commit -m "<commit message>" ----> Will add files to local repository.
+    9. git push ----> Will add files from local to remote repository.
+    10.Go though commands to checkout, rename branches etc.,
+    11. git log ----> To show latest commmits
+    12. For undoing changes
+        git reset HEAD~1     ---> To undo latest commit.
+
+        git revert <commit id>  ---> To remove that pushed changes by adding new commit for erasing 
